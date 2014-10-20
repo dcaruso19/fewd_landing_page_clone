@@ -29,6 +29,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
     line-height: 1;
+    font-family: 'Roboto', sans-serif;
 }
 ol, ul {
     list-style: none;
@@ -38,15 +39,15 @@ ol, ul {
 .content {
     box-sizing: border-box;
     padding: 0 15px;
+    margin: 0 auto;
+    width: 970px;
 }
 /* Navigation Section */
 .top-navigation {
     background-color: #fff;
 }
 .top-navigation > .content {
-    margin: 0 auto;
-    width: 970px;
-    height: 70px;
+       height: 70px;
 }
 .top-navigation .logo {
     height: 70px;
@@ -56,7 +57,6 @@ ol, ul {
 
 .top-navigation .links {
     float: right;
-    font-family: 'Roboto', sans-serif;
     color: #838994;
     font-size: 16px;
     margin-top: 25px;
@@ -73,4 +73,112 @@ ol, ul {
 .top-navigation .links li:hover {
     cursor: pointer;
     color: #333333;
+}
+
+.introduction {
+    background-image: url('../img/background.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+    overflow: auto;
+}
+
+.introduction h1,
+.introduction h3 {
+    color: white;
+    text-align: center;
+    font-weight: 300;
+}
+.introduction h1 {
+    margin-top: 17.5rem;
+    font-size: 3.125rem;
+}
+.introduction h3 {
+    margin-top: 1.25rem;
+    font-size: 1.563rem;
+}
+
+
+
+.introduction .buttons {
+    color: white;
+    text-align: center;
+    margin-top: 1.563rem;
+}
+.introduction .half {
+    width: 49%;
+    padding: 0 0.938rem;
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 1.125rem;
+    line-height: 1.2;
+}
+.half.learn {
+    text-align: right;
+}
+.half.watch {
+    text-align: left;
+    padding: 1rem 1.5rem;
+    font-weight: 500;
+}
+.introduction .learn button {
+    width: 9.688rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-size: 1.125rem;
+}
+:focus {
+    outline: none;
+}
+.introduction .learn button:hover {
+    background-color: #d9400e;
+    border-color: #cf3d0e;
+    cursor: pointer;
+}
+.introduction .watch img {
+    position: relative;
+    top: 0.625rem;
+}
+
+
+
+
+
+.cases {
+    background-color: #fff;
+    overflow: hidden;
+    padding-bottom: 10rem;
+}
+.cases .content {
+    margin-top: 7.875rem;
+    padding: none;
+    color: #1d1e21;
+    text-align: center;
+}
+.cases h2 {
+    font-size: 2.75rem;
+    margin: 1.625rem 0 3.125rem;
+    font-weight: 300;
+}
+.cases .devices {
+    display: flex;
+}
+.cases .devices > li {
+    width: 33.3333333%;
+}
+.cases .devices h3 {
+    font-weight: 400;
+    font-size: 1.563rem;
+    margin: 2.5rem 0px 1.875rem;
+
+}
+.cases .devices p {
+    font-weight: 300;
+    font-size: 1.313rem;
 }

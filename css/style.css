@@ -45,6 +45,10 @@ ol, ul {
 /* Navigation Section */
 .top-navigation {
     background-color: #fff;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #DDD;
+}
 }
 .top-navigation > .content {
        height: 70px;
@@ -52,8 +56,6 @@ ol, ul {
 .top-navigation .logo {
     height: 70px;
 }
-
-
 
 .top-navigation .links {
     float: right;
@@ -182,3 +184,14 @@ ol, ul {
     font-weight: 300;
     font-size: 1.313rem;
 }
+
+
+
+.buy-now {
+	background-image: url('../img/buy-now-bg.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+    overflow: auto;
+	}
